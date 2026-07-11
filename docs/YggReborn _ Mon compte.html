@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://www.yggreborn.org/account/ -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YggReborn | Mon compte</title>
+<link rel="icon" href="https://www.yggreborn.org/static/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./YggReborn _ Mon compte_files/css2" rel="stylesheet">
+<link rel="stylesheet" href="./YggReborn _ Mon compte_files/tailwind.css">
+<link rel="stylesheet" href="./YggReborn _ Mon compte_files/styles.css">
+<style>
+</style>
+</head>
+<body class="text-dark-300 min-h-screen min-h-[100svh] font-sans antialiased flex flex-col">
+<!-- ════════ HEADER ════════ -->
+<header class="sticky top-0 z-50 shrink-0">
+<!-- Top bar -->
+<div class="header-shell">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="h-16 grid grid-cols-[auto,1fr,auto] items-center gap-4">
+<!-- Logo -->
+<a href="https://www.yggreborn.org/accueil" class="flex items-center gap-1 shrink-0">
+<img src="./YggReborn _ Mon compte_files/logo.svg" alt="YGG" class="h-8 w-auto block shrink-0"> <span class="brand-wordmark text-base sm:text-xl">REBORN</span> </a>
+<!-- Desktop search -->
+<div class="hidden lg:block absolute w-full max-w-xl justify-self-center safe-min-w-0">
+<form action="https://www.yggreborn.org/torrents" method="get" class="relative">
+<input type="hidden" name="cat" value="">
+<input type="hidden" name="sort" value="">
+<input type="hidden" name="order" value="">
+<input type="hidden" name="res" value="all">
+<input type="hidden" name="lang" value="all">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none z-10">
+<svg class="h-4 w-4 text-[var(--primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+</svg>
+</div>
+<div class="ygg-control rounded-lg">
+<input type="text" name="q" value="" class="block w-full pl-9 pr-3 py-2.5 rounded-lg bg-transparent text-white placeholder-dark-400 focus:outline-none text-[0.95rem]" placeholder="Rechercher...">
+</div>
+</form>
+</div>
+<!-- Right actions -->
+<div id="header-actions" class="flex items-center justify-end gap-1 shrink-0">
+<span class="text-sm mr-1 font-medium whitespace-nowrap leading-none text-mint-400">
+Ratio : 44.70
+</span>
+<a href="https://www.yggreborn.org/account/" class="lang-pill px-3 h-9 rounded-lg text-sm text-dark-300 hover:text-white transition-colors flex items-center gap-2">
+<svg viewBox="0 0 640 640" class="h-4 w-4 text-dark-400 fill-current">
+<path d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z"></path>
+</svg>
+</a>
+</div>
+</div>
+<!-- Mobile search -->
+<div class="lg:hidden pb-3">
+<form action="https://www.yggreborn.org/torrents" method="get" class="relative">
+<input type="hidden" name="cat" value="">
+<input type="hidden" name="res" value="all">
+<input type="hidden" name="lang" value="all">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none z-10">
+<svg class="h-4 w-4 text-[var(--primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+</svg>
+</div>
+<div class="ygg-control rounded-lg">
+<input type="text" name="q" value="" class="block w-full pl-9 pr-3 py-2.5 rounded-lg bg-transparent text-white placeholder-dark-400 focus:outline-none text-[0.95rem]" placeholder="Rechercher...">
+</div>
+</form>
+</div>
+</div>
+</div>
+<!-- Navigation bar -->
+<div class="bg-dark-950 border-b border-dark-700/40">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<nav class="h-11 overflow-x-auto nav-scroll">
+<div class="h-full w-full min-w-[760px] grid grid-cols-[1fr_auto_1fr] items-center lg:-translate-x-3.5">
+<div class="flex items-center justify-end">
+<a href="https://www.yggreborn.org/accueil" class="ygg-nav-link px-3 py-1.5 rounded-md transition-colors ">
+Accueil
+</a>
+<a href="https://www.yggreborn.org/guide-api" class="ygg-nav-link px-3 py-1.5 rounded-md transition-colors ">
+API
+</a>
+<a href="https://www.yggreborn.org/torrents" class="ygg-nav-link px-3 py-1.5 rounded-md transition-colors ">
+Torrents
+</a>
+<a href="https://www.yggreborn.org/categories" class="ygg-nav-link px-3 py-1.5 rounded-md transition-colors ">
+Catégories
+</a>
+</div>
+<a href="https://www.yggreborn.org/torrents?freeleech=1" class="ygg-nav-link nav-freeleech px-3 py-1.5 rounded-md transition-colors flex items-center justify-center gap-1.5 ">
+<svg viewBox="0 0 20 20" fill="currentColor" class="w-3.5 h-3.5">
+<path d="M10 1l2.39 4.84L17.3 6.9l-3.65 3.56.86 5.03L10 13.14l-4.51 2.37.86-5.03L2.7 6.92l4.91-.72L10 1z"></path>
+</svg>
+Freeleech
+</a>
+<div class="flex items-center justify-start">
+<a href="https://www.yggreborn.org/top100" class="ygg-nav-link px-3 py-1.5 rounded-md transition-colors ">
+Top100
+</a>
+<a href="https://www.yggreborn.org/exclusivites" class="ygg-nav-link px-3 py-1.5 rounded-md transition-colors ">
+Exclusivités
+</a>
+<a href="https://www.yggreborn.org/guide-upload" class="ygg-nav-link px-3 py-1.5 rounded-md transition-colors ">
+Uploader
+</a>
+<a href="https://www.yggreborn.org/forum/" class="ygg-nav-link px-3 py-1.5 rounded-md transition-colors
+">
+Forum
+</a>
+</div>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<!-- ════════ FLASH MESSAGES ════════ -->
+<!-- ════════ MAIN ════════ -->
+<main class="content-shell w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-5 pb-6 sm:pb-8 flex-1">
+<!-- Page header -->
+<div>
+<p class="ygg-hero-kicker text-left mb-1" style="font-size:1.1rem;">
+<span>MON</span>
+<span class="accent-strike">Compte</span>
+</p>
+<p class="text-dark-400 text-sm">Bienvenue, <span class="text-mint-400 font-semibold">Rombond</span></p>
+</div>
+<!-- ════════ RATIO WARNING ════════ -->
+<!-- ════════ TOP ROW: Tracker Stats + Uploader Rank ════════ -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- Tracker Stats Card -->
+<div class="hero-card rounded-lg p-5 flex flex-col">
+<h3 class="text-sm font-semibold uppercase tracking-wider text-dark-400 mb-4">Statistiques Tracker</h3>
+<div class="flex-1"></div>
+<div class="grid grid-cols-2 gap-4">
+<div class="rounded-lg p-3 text-center" style="background: rgba(102,221,183,.06); border: 1px solid rgba(102,221,183,.15);">
+<div class="text-xl sm:text-2xl font-extrabold text-mint-400 truncate">282.82 Go</div>
+<div class="text-[0.7rem] uppercase tracking-wider text-dark-400 mt-1">Upload</div>
+</div>
+<div class="rounded-lg p-3 text-center" style="background: rgba(239,68,68,.06); border: 1px solid rgba(239,68,68,.15);">
+<div class="text-xl sm:text-2xl font-extrabold text-red-400 truncate">6.33 Go</div> <div class="text-[0.7rem] uppercase tracking-wider text-dark-400 mt-1">Download</div>
+</div>
+<div class="rounded-lg p-3 text-center" style="background: rgba(245,158,11,.06); border: 1px solid rgba(245,158,11,.15);">
+<div class="text-xl sm:text-2xl font-extrabold text-amber-400 truncate">1.73 Go</div>
+<div class="text-[0.7rem] uppercase tracking-wider text-dark-400 mt-1">Freeleech DL</div>
+</div>
+<div class="rounded-lg p-3 text-center" style="background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08);">
+<div class="text-xl sm:text-2xl font-extrabold text-mint-400">
+44.70
+</div>
+<div class="text-[0.7rem] uppercase tracking-wider text-dark-400 mt-1">Ratio</div>
+</div>
+</div>
+</div>
+<!-- Uploader Rank Card -->
+<div class="hero-card rounded-lg p-5 flex flex-col">
+<div class="flex items-baseline justify-between gap-3 mb-4">
+<h3 class="text-sm font-semibold uppercase tracking-wider text-dark-400">Statut Uploader</h3>
+</div>
+<div class="flex-1"></div>
+<div class="grid grid-cols-2 gap-4">
+<div class="rounded-lg p-3 flex items-center gap-3" style="background: color-mix(in srgb, rgba(197,205,214,.08) 65%, transparent); border: 1px solid rgba(197,205,214,.15);">
+<div class="shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg font-bold" style="background: rgba(197,205,214,.08); border: 2px solid rgba(197,205,214,.15); color: #c5cdd6;">
+↑
+</div>
+<div class="min-w-0">
+<span class="text-sm font-bold uppercase tracking-wider" style="color: #c5cdd6;">
+Uploader
+</span>
+<div class="text-xs font-semibold mt-0.5" style="color: #c5cdd6;">
++1 Go / vérif
+</div>
+</div>
+</div>
+<div class="rounded-lg p-3 text-center" style="background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08);">
+<div class="text-xl sm:text-2xl text-mint-400 font-extrabold">
+—
+</div>
+<div class="text-[0.7rem] uppercase tracking-wider text-dark-400 mt-1">Score</div>
+</div>
+<div class="rounded-lg p-3 text-center" style="background: rgba(102,221,183,.06); border: 1px solid rgba(102,221,183,.15);">
+<div class="text-xl sm:text-2xl text-mint-400 font-extrabold">0</div>
+<div class="text-[0.7rem] uppercase tracking-wider text-dark-400 mt-1">Uploads</div>
+</div>
+<div class="rounded-lg p-3 text-center" style="background: rgba(34,197,94,.06); border: 1px solid rgba(34,197,94,.15);">
+<div class="text-xl sm:text-2xl font-extrabold" style="color: #22c55e;">0</div>
+<div class="text-[0.7rem] uppercase tracking-wider text-dark-400 mt-1">Vérifiés</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ════════ QUICK ACTIONS ════════ -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+<a href="https://www.yggreborn.org/account/torrents" class="hero-card rounded-lg p-3 sm:p-4 hover:scale-[1.01] transition-transform text-center">
+<svg class="h-5 w-5 mx-auto mb-1.5 text-mint-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+</svg>
+<span class="text-white font-semibold text-[0.72rem] uppercase tracking-wider">Mes torrents</span>
+</a>
+<a href="https://www.yggreborn.org/account/active-torrents" class="hero-card rounded-lg p-3 sm:p-4 hover:scale-[1.01] transition-transform text-center">
+<svg class="h-5 w-5 mx-auto mb-1.5 text-mint-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M7 16V4m0 0L3 8m4-4l4 4M17 8v12m0 0l4-4m-4 4l-4-4"></path>
+</svg>
+<span class="text-white font-semibold text-[0.72rem] uppercase tracking-wider">Actifs</span>
+</a>
+<a href="https://www.yggreborn.org/uploader/Rombond" class="hero-card rounded-lg p-3 sm:p-4 hover:scale-[1.01] transition-transform text-center">
+<svg class="h-5 w-5 mx-auto mb-1.5 text-dark-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+</svg>
+<span class="text-white font-semibold text-[0.72rem] uppercase tracking-wider">Profil</span>
+</a>
+<a href="https://www.yggreborn.org/account/profile" class="hero-card rounded-lg p-3 sm:p-4 hover:scale-[1.01] transition-transform text-center">
+<svg class="h-5 w-5 mx-auto mb-1.5 text-dark-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+</svg>
+<span class="text-white font-semibold text-[0.72rem] uppercase tracking-wider">Sécurité</span>
+</a>
+<a href="https://www.yggreborn.org/contact" class="hero-card rounded-lg p-3 sm:p-4 hover:scale-[1.01] transition-transform text-center relative">
+<svg class="h-5 w-5 mx-auto mb-1.5 text-dark-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path>
+</svg>
+<span class="text-white font-semibold text-[0.72rem] uppercase tracking-wider">Support</span>
+</a>
+<a href="https://www.yggreborn.org/inbox/" class="hero-card rounded-lg p-3 sm:p-4 hover:scale-[1.01] transition-transform text-center relative">
+<svg class="h-5 w-5 mx-auto mb-1.5 text-dark-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+</svg>
+<span class="text-white font-semibold text-[0.72rem] uppercase tracking-wider">Messages</span>
+</a>
+</div>
+
+<!-- ════════ ACCOUNT INFO (content-card = light) ════════ -->
+<div class="content-card rounded-lg p-5 sm:p-6">
+<h3 class="text-sm font-semibold uppercase tracking-widest mb-4 pb-3 border-b" style="color: var(--text-dark); border-color: var(--light-border);">Informations du compte</h3>
+<div class="space-y-0 text-sm">
+<div class="flex items-center justify-between py-2.5 border-b" style="border-color: var(--light-border);">
+<span style="color: var(--text-dark-muted);">Nom d'utilisateur</span>
+<span class="font-medium" style="color: var(--text-dark);">Rombond</span>
+</div>
+<div class="flex items-center justify-between py-2.5 border-b" style="border-color: var(--light-border);">
+<span style="color: var(--text-dark-muted);">Email</span>
+<span class="truncate ml-4" style="color: var(--text-dark);">rombond@live.fr</span>
+</div>
+<div class="flex items-center justify-between py-2.5 border-b" style="border-color: var(--light-border);">
+<span style="color: var(--text-dark-muted);">Membre depuis</span>
+<span style="color: var(--text-dark);">
+07/06/2026
+</span>
+</div>
+<div class="flex items-center justify-between py-2.5 border-b" style="border-color: var(--light-border);">
+<span style="color: var(--text-dark-muted);">Dernière connexion</span>
+<span style="color: var(--text-dark);">
+27/06/2026 17:12
+</span>
+</div>
+<div class="flex items-center justify-between py-2.5 border-b" style="border-color: var(--light-border);">
+<span style="color: var(--text-dark-muted);">Rôle</span>
+<div class="flex flex-wrap justify-end gap-1.5 ml-4">
+<span class="px-2 py-0.5 rounded text-xs font-semibold uppercase" style="background: rgba(100,100,100,.1); color: var(--text-dark-muted);">Membre</span>
+</div>
+</div>
+<div class="flex items-center justify-between py-2.5">
+<span style="color: var(--text-dark-muted);">Statut</span>
+<span class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full" style="background:#22c55e;"></span>
+<span class="font-medium" style="color:#006b55;">Actif</span>
+</span>
+</div>
+</div>
+</div>
+<!-- ════════ TRACKER CONFIG (content-card = light) ════════ -->
+<div class="content-card rounded-lg p-5 sm:p-6">
+<h3 class="text-sm font-semibold uppercase tracking-widest mb-4 pb-3 border-b" style="color: var(--text-dark); border-color: var(--light-border);">Configuration Tracker</h3>
+<div class="space-y-4">
+<div>
+<label class="block ml-1 text-xs font-medium uppercase tracking-widest mb-1.5" style="color: var(--text-dark-muted);">
+URL d'annonce (privée)
+</label>
+<div class="flex items-center gap-2">
+<code id="announce-url" class="flex-1 text-xs px-3 py-2.5 rounded-lg break-all select-all" style="background: var(--light-card-inner); border: 1px solid var(--light-border); color: #006b55;">https://tracker.yggreborn.org/938cd96720dc2bd58076ef1974a6537b/announce</code>
+<button onclick="copyAnnounce()" type="button" class="shrink-0 px-3 py-2.5 rounded-lg text-xs font-medium transition-colors" style="background: rgba(102,221,183,.1); color: #006b55; border: 1px solid rgba(102,221,183,.2);" onmouseover="this.style.background=&#39;rgba(102,221,183,.2)&#39;" onmouseout="this.style.background=&#39;rgba(102,221,183,.1)&#39;" title="Copier">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+</svg>
+</button>
+</div>
+<p class="text-xs ml-1 mt-2" style="color: var(--text-dark-muted);">
+Ajoutez cette URL dans votre client torrent pour utiliser le tracker privé.
+<strong style="color: var(--text-dark);">Ne partagez jamais cette URL</strong>.
+</p>
+</div>
+</div>
+</div>
+<!-- ════════ INVITE KEY (invite mode only) ════════ -->
+<!-- ════════ BOTTOM LINKS ════════ -->
+<div class="flex flex-col gap-3">
+<form action="https://www.yggreborn.org/logout" method="post" class="w-full">
+<input type="hidden" name="csrf_token" value="IjhmNWM2MGJmZWZjOTg4MjcwOTRhMjIxYmZlYzExYzRmNDk0ZjE1NTUi.akAG0w.sVJSlVNxuFSBjkE5g1d0FhEBxQU">
+<button type="submit" class="w-full flex items-center gap-3 px-4 py-3 rounded-lg border transition-colors" style="border-color:rgba(255,68,68,.2); background:rgba(255,68,68,.05);" onmouseover="this.style.background=&#39;rgba(255,68,68,.1)&#39;" onmouseout="this.style.background=&#39;rgba(255,68,68,.05)&#39;">
+<svg class="h-4 w-4 shrink-0" style="color:#ff6b6b;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
+</svg>
+<span class="text-sm font-medium" style="color:#ff6b6b;">Déconnexion</span>
+</button>
+</form>
+</div>
+<script>
+function copyAnnounce() {
+const url = document.getElementById('announce-url').textContent.trim();
+navigator.clipboard.writeText(url).then(() => {
+const btn = event.currentTarget;
+const orig = btn.innerHTML;
+btn.innerHTML = '<span class="text-xs">✓ Copié</span>';
+setTimeout(() => { btn.innerHTML = orig; }, 1500);
+});
+}
+</script>
+</main>
+<!-- ════════ FOOTER ════════ -->
+<footer class="footer-shell shrink-0">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-dark-400">
+<div class="tracking-[0.16em] uppercase text-[0.72rem] sm:text-[0.78rem] text-center sm:text-left leading-none sm:leading-normal">
+<span class="text-white font-semibold">YggReborn</span>
+<span> | 2026</span>
+</div>
+<div class="flex flex-wrap items-center justify-center sm:justify-end gap-x-3 gap-y-1">
+<a href="https://www.yggreborn.org/about" class="hover:text-[var(--primary)] transition-colors tracking-[0.16em] uppercase text-[0.72rem] sm:text-[0.76rem] leading-none sm:leading-normal">À propos</a>
+<a href="https://www.yggreborn.org/faq" class="hover:text-[var(--primary)] transition-colors tracking-[0.16em] uppercase text-[0.72rem] sm:text-[0.76rem] leading-none sm:leading-normal">FAQ</a>
+<a href="https://www.yggreborn.org/contact" class="hover:text-[var(--primary)] transition-colors tracking-[0.16em] uppercase text-[0.72rem] sm:text-[0.76rem] leading-none sm:leading-normal">Support</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+(() => {
+const el = document.getElementById("freeleech-countdown");
+if (!el) return;
+const timeEl = el.querySelector("[data-freeleech-time]");
+const endTs = parseInt(el.dataset.freeleechUntil || "0", 10);
+const formatRemaining = (seconds) => {
+seconds = Math.max(0, Math.floor(seconds));
+const days = Math.floor(seconds / 86400);
+const hours = Math.floor((seconds % 86400) / 3600);
+const minutes = Math.floor((seconds % 3600) / 60);
+const secs = seconds % 60;
+if (days > 0) {
+return hours > 0 ? `${days}j ${hours}h` : `${days}j`;
+}
+if (hours > 0) {
+return minutes > 0 ? `${hours}h ${minutes}m` : `${hours}h`;
+}
+if (minutes > 0) {
+return `${minutes}m ${secs}s`;
+}
+return `${secs}s`;
+};
+const tick = () => {
+const nowTs = Math.floor(Date.now() / 1000);
+const remaining = endTs - nowTs;
+if (!endTs || remaining <= 0) {
+el.remove();
+return false;
+}
+timeEl.textContent = formatRemaining(remaining);
+return true;
+};
+if (!tick()) return;
+const timer = setInterval(() => {
+if (!tick()) {
+clearInterval(timer);
+}
+}, 1000);
+})();
+(() => {
+const ownHost = window.location.hostname;
+const isExternalImage = (value) => {
+if (!value) return false;
+try {
+const url = new URL(value, window.location.href);
+return url.protocol.startsWith("http") && url.hostname !== ownHost;
+} catch {
+return false;
+}
+};
+const optimizeExternalImage = (img) => {
+if (img.dataset.externalOptimized === "1") return;
+if (img.hasAttribute("data-no-external-optimize")) return;
+const src = img.getAttribute("data-src") || img.getAttribute("src") || "";
+if (!isExternalImage(src)) return;
+img.setAttribute("loading", img.hasAttribute("data-no-lazy") ? "eager" : "lazy");
+img.setAttribute("decoding", "async");
+img.setAttribute("referrerpolicy", "no-referrer");
+img.setAttribute("data-external-image", "1");
+img.dataset.externalOptimized = "1";
+img.addEventListener("error", () => {
+img.setAttribute("data-image-error", "1");
+}, { once: true });
+};
+const scan = (root = document) => {
+if (root.matches && root.matches("img")) {
+optimizeExternalImage(root);
+}
+root.querySelectorAll?.("img[src], img[data-src]").forEach(optimizeExternalImage);
+};
+scan();
+const observer = new MutationObserver((mutations) => {
+mutations.forEach((mutation) => {
+mutation.addedNodes.forEach((node) => {
+if (node.nodeType === 1) {
+scan(node);
+}
+});
+});
+});
+observer.observe(document.documentElement, {
+childList: true,
+subtree: true
+});
+})();
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a12622450dc0a1f9',t:'MTc4MjU4MDk0Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; visibility: hidden;" src="./YggReborn _ Mon compte_files/saved_resource.html"></iframe>
+</body></html>
