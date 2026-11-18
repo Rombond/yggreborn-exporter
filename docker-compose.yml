@@ -1,0 +1,35 @@
+services:
+  yggreborn-exporter:
+    container_name: yggreborn-exporter
+    image: ghcr.io/rombond/yggreborn-exporter:latest
+    ports:
+      - "${PORT:-9090}:${PORT:-9090}"
+    environment:
+      - YGGREBORN_EMAIL=${YGGREBORN_EMAIL:-}
+      - YGGREBORN_PASSWORD=${YGGREBORN_PASSWORD:-}
+      - METRICS_PATH=${METRICS_PATH:-/metrics}
+      - PORT=${PORT:-9090}
+      - SCRAPE_INTERVAL=${SCRAPE_INTERVAL:-5m}
+      - YGGREBORN_API_BASE_URL=${YGGREBORN_API_BASE_URL:-https://www.yggreborn.org}
+      - FLARESOLVER_URL=http://flaresolverr:8191
+    depends_on:
+      - flaresolverr
+    restart: unless-stopped
+
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    container_name: flaresolverr
+    environment:
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+      - LOG_FILE=${LOG_FILE:-none}
+      - LOG_HTML=${LOG_HTML:-false}
+      - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
+      - TZ=${TZ:-Europe/London}
+    ports:
+      - "8191:8191"
+    volumes:
+      - flaresolverr_data:/config
+    restart: unless-stopped
+
+volumes:
+  flaresolverr_data:

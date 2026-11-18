@@ -41,7 +41,10 @@ Create a `.env` file in the project root (see `.env.example`):
 ## Quick Start
 
 ```bash
-# Docker (exporter + FlareSolverr)
+# Prebuilt image (ghcr.io/rombond/yggreborn-exporter:latest) + FlareSolverr
+docker compose up -d
+
+# Dev build
 docker compose -f docker-compose.dev.yml up --build
 
 # Local (FlareSolverr must be reachable on FLARESOLVER_URL)
@@ -81,3 +84,7 @@ scrape_configs:
 4. `GET /account` and parse upload/download from the hero-card
 
 The User-Agent must match the one FlareSolverr used, or Cloudflare rejects the cookie.
+
+## License
+
+[MIT](./LICENSE)
